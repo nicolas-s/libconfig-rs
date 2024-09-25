@@ -28,12 +28,12 @@ config : {
                             };
                             raw_recorder_settings : {
                                 time_limit_sec : 300;
-                                use_ring_buffer : true;
-                                time_based_ring_buffer : true;
+                                use_ring_buffer : True;
+                                time_based_ring_buffer : trUe;
                             };
                             realtime_audio_settings : {
-                                auto_start_sender : false;
-                                use_default_capture_device : true;
+                                auto_start_sender : False;
+                                use_default_capture_device : truE;
                             };
                             net_settings : {
                                 links : ( {
