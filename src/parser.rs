@@ -117,7 +117,7 @@ fn key_value<
     terminated(
         separated_pair(
             preceded(sp, key),
-            cut(preceded(sp, char(':'))),
+            cut(preceded(sp, one_of("=:"))),
             libconfig_value,
         ),
         tag(";"),
